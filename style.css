@@ -1,0 +1,19 @@
+/* Defaults Styles*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Mukta', sans-serif;
+}
+
+html{
+    font-size:65.5% ;
+}
+/* End of Defaults Styles*/
+
+/* Container*/
+
+/* Navbar*/
+/* Navbar*/
