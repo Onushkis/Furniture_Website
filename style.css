@@ -281,7 +281,7 @@ html {
 }
 .pricing-top h1{
     font-size: 7rem;
-    color:#f8872b ;
+    color:#073e72 ;
 }
 .pricing-top button, .pricing button{
     width: 18rem;
@@ -428,18 +428,132 @@ html {
 }
 
 .article span{
-    font-size: 2rem;
+    font-size:2rem;
     color: #fff;
     text-transform: uppercase;
-    left: 1;
+  line-height: 1;
 }
 .article span:nth-child(1){
     font-size:5rem;
     font-weight: bold;
     margin-right: 1rem;
 }
-
 /* ENDS Blog Section*/
+
+/* Contact Section*/
+.contact{
+  width: 100%;
+  height: 40vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-content{
+  width: 50%;
+  height: 15rem;
+  display: flex;
+}
+
+.content-left{
+  width: 40%;
+  height: 100%;
+  background-color: #ffb128;
+  border-radius: 2rem 0 0 2rem;
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+}
+
+.content-left h2{
+  width: 80%;
+  font-size: 2.2rem;
+  color: #fff;
+  line-height: 1.4;
+}
+.content-left span{
+  font-size: 2.5rem;
+  color: #073e72;
+}
+.content-right{
+width: 60%;
+height: 100%;
+background-color: #073e72;
+border-radius: 0 2rem 2rem 0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.content-right input{
+  width: 35rem;
+  height: 4rem;
+  background-color: #174b69;
+padding: 2rem;
+border: none;
+border-radius: .5rem;
+color: #fff;
+margin-right: 1rem;
+
+}
+.content-right input::placeholder{
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.content-right input:focus{
+  border: .1rem solid #f8872b;
+}
+.content-right button{
+  width: 10rem;
+  height: 4rem;
+  background-color: #f8872b;
+  border: none;
+  border-radius: 3rem;
+  font-size: 1.6rem;
+  color: #fff;
+  cursor: pointer;
+
+}
+  /* ENDS Contact  Section*/
+
+    /* FooterContact  Section*/
+    .footer{
+width: 50%;
+height: 5rem;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-top: .1rem solid #ccc;
+
+    }
+    .copyright{
+      font-size: 1.6rem;
+      color: #073e72;
+
+    }
+    .brand{
+      display: flex;
+      align-items: center;
+
+    }
+    .brand i{
+      font-size: 2rem;
+      color: #f8872b;
+      margin-right: 1.5rem;
+    }
+    .brand h1{
+      font-family: "Kenia",cursive;
+      font-size: 2rem;
+      letter-spacing: .3rem;
+      color: #073e72;
+    }
+      /* ENDS Footer  Section*/
+
+  
+
+
 
 
 
